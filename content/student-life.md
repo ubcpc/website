@@ -6,4 +6,4 @@ Salam! Our names are Pouya and Ava and we are your Student Life team this year! 
 
 ![volleyball](/student-life1.jpg "Playing volleyball in a Patogh event")
 
-![group-photo](/student-life2.jpg "Group photo in a Patogh event")
+![group-photo](/student-life2.jpg "Group photo from a Patogh event")
