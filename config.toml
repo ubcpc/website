@@ -43,8 +43,8 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Mentorship"
-url = "/mentorship"
+name = "Academic"
+url = "/academic"
 weight = 3
 
 [[menu.main]]
