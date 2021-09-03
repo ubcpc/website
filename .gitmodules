@@ -1,3 +1,6 @@
 [submodule "themes/hugo-ink"]
 	path = themes/hugo-ink
 	url = git@github.com:ubcpc/hugo-ink.git
+[submodule "gen"]
+	path = public
+	url = git@github.com:ubcpc/ubcpc.github.io.git

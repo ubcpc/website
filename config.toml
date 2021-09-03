@@ -1,4 +1,4 @@
-baseURL = "http://ubcpc.github.io/"
+baseURL = "https://ubcpc.github.io/"
 languageCode = "en-us"
 title = "UBC Persian Club"
 theme = "hugo-ink"
