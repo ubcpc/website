@@ -1,0 +1,76 @@
+baseURL = "http://ubcpc.shayanh.com/"
+languageCode = "en-us"
+title = "UBC Persian Club"
+theme = "hugo-ink"
+paginate = 10
+
+copyright = "© All rights reserved"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "ink-demo"
+
+[params]
+	# Language of the subtitle manually hardcoded in the head.html.
+	subtitle = "انجمن دانشجویان ایرانی"
+
+	# Optional 64x64 avatar image. Also these names are manually hardcoded in the main.js.
+	avatar = "/logo-main.png"
+	avatarWhite = "/logo-white.png"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Mentorship"
+url = "/mentorship"
+weight = 3
+
+[[menu.main]]
+name = "Student Life"
+url ="/student-life"
+weight = 4
+
+[[params.social]]
+name = "Instagram"
+icon = "instagram"
+url = "https://www.instagram.com/ubcpc/"
+
+[[params.social]]
+name = "Facebook"
+icon = "facebook"
+url = "https://www.facebook.com/ubcpersianclub/"
+
+[[params.social]]
+name = "Youtube"
+icon = "youtube"
+url = "https://www.youtube.com/channel/UCLUDnahFFDt2JxFhLeINAJg"
+
+[[params.social]]
+name = "Telegram"
+icon = "send"
+url = "https://t.me/ubcpersianclub"
+
+[taxonomies]
+   tag = "tags"
