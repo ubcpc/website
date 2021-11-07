@@ -1,4 +1,4 @@
-baseURL = "https://ubcpc.net/"
+baseURL = "/"
 languageCode = "en-us"
 title = "UBC Persian Club"
 theme = "hugo-ink"
@@ -52,6 +52,11 @@ name = "Student Life"
 url ="/student-life"
 weight = 4
 
+[[menu.main]]
+name = "Sponsors"
+url ="/sponsors"
+weight = 5
+
 [[params.social]]
 name = "Instagram"
 icon = "instagram"
@@ -73,4 +78,7 @@ icon = "send"
 url = "https://t.me/ubcpersianclub"
 
 [taxonomies]
-   tag = "tags"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe= true
